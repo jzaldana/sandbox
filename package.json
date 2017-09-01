@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api test environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzaldana/en.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "jzaldana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jzaldana/en/issues"
+  },
+  "homepage": "https://github.com/jzaldana/en#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.9"
+  },
+  "start": "nodemon server.js"
+}
